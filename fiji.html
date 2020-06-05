@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title>Fiji</title>
+<meta charset="utf-8">
+<link rel=stylesheet href="fijicss/fiji.css">
+</head>
+<body>
+    <div id="one">
+      <p class="aa">Fiji</p>
+        <img src="fijisflaga.jpg" alt="image"></div>
+          <div id="two"></div>
+             <div id="three">
+               <h3 class="a">Introduction</h3>
+                 <h3 class="b"><a href="Tradition.html">Tradition</a></h3>
+                 
+                   <h3 class="c"><a href="cultur.html">Cultur</a></h3>
+                <h3 class="d">Slang</h3>
+             <h3 class="e">Places to Go</h3>
+          <h3 class="g">Things to Do</h3>
+        <h3 class="h">Places to Stay</h3>
+      <h3 class="i">Things to Know</h3>
+    <h3 class="j">Contact</h3>
+    </div>
+    <div id="four"></div>
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="ab.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ac.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ad.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div id="five">
+<h2 class="www">Introduction</h2>
+<p class="ww">Fiji is a country that consists of 333 islands,  and 110 of them are inhabited. The two major islands are Viti Levu and Vanua Levu both have  87% of the population of almost 883,000. The capital, Suva on Viti Levu, serves as Fiji's principal port. About three-quarters of Fijians live on Viti Levu's coasts. 57 percent of Fiji's population is native Melanesian or Melanesia/Polynesian mix, while 37 percent is descended from indentured Indians brought to the islands in the late 19th century by the British to work the sugar cane plantations.</p>
+<img src="zzz.jpg" alt="image"></div>
+
+<div id="six">
+<h2 class="vvv">Slang</h2>
+<p class="vv">Fiji is a multi-race country that has a lot of slangs. 'vinaka' (pronounced veenaka) is how you say thank you or good. Yes is 'io' (ee or) and no is 'seg a' (senga) the letter g is pronounced 'ng', so Sigatoka is pronounced Singatoka. The letter d is also pronounced with an n before it, so Nadi is spoken as Nandi. You pronounce an m before the letter b, so Toberau is Tomberau, and a c is pronounced 'th' so Mamanuca Islands is pronounced Mamanutha Islands. 
+
+In the southern Pacific we find the beautiful islands representing Fiji. Officially, it is today called the Republic of Fiji, but Fiji is still the most widely used in the vernacular. Here you will find over 300 islands, where about 110 of these are inhabited, all of which are surrounded by beautiful crystal clear water that invites you to both swimming and diving and snorkelling. The long white beaches are perfect for sunbathing and if you want shade you can lie under one of the exotic palm trees that contribute to the feeling of a paradise island. Fiji travel to people who want to get away from everyday stress and the need to just enjoy the tranquility and the scenic environment. The idyllic islands are also a place for many couples as many choose to travel here to spend their honeymoon or to have their dream wedding. It is the place to fall in love and bring people you love to.
+</p>        
+</div>
+<div id="seven"></div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    
+    
+    
+    </body>
+</html>

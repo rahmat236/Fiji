@@ -1,51 +1,52 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
-
+#onee{
+    background-color: dodgerblue;
+    height: 4px;
+    width: 1530px;
+    border-style: hidden;
+}
 #one{
     background-color: whitesmoke;
     height: 120px;
     width: 1530px;
     border-style: hidden;
 }
- .aa{
-            border-style: solid;
-            position: absolute;
-            padding: 18px;
-     padding-left: 30px;
-     padding-right: 30px;
-            margin-top: 15px;
-            margin-left: 250px;
-            font-size: 40px;
-            background-color: white;
-            color: black;
-            border-radius: 120%;
-        }
-        .aa:hover{
-            background-color: skyblue;
-            color: white;
-         }
-
+.aa{
+    border-style: solid;
+    position: absolute;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 40px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 120%;
+}
+.aa:hover{
+    background-color: skyblue;
+    color: white;
+}
 #one img{
     position: absolute;
     height: 120px;
     width: 240px;;
     margin-left: 740px;
 }
-
 #two{
-    background-color: skyblue;
-    height: 2px;
+    background-color: dodgerblue;
+    height: 4px;
     width: 1530px;
     border-style: hidden;
 }
 #three{
-    background-color: whitesmoke;
+    background-color: skyblue;
     height: 46px;
     width: 1530px;
-
     border-style: hidden;
 }
 .a{
@@ -57,18 +58,19 @@
     margin-left: 60px;
 }
 .a:hover{
-    background-color: skyblue;
-    color: white;}
+    background-color: dodgerblue;
+    color: white;
+}
 .b{
     border-style: hidden;
     padding: 12px;
     text-align: center;
     font-size: 18px;
     position: absolute;
-    margin-left: 210px;
+    margin-left: 208px;
 }
 .b:hover{
-    background-color: skyblue;
+    background-color: dodgerblue;
     color: white;}
 .c{
     border-style: hidden;
@@ -79,7 +81,7 @@
     margin-left: 330px;
 }
 .c:hover{
-    background-color: skyblue;
+    background-color: dodgerblue;
     color: white;}
 
 .d{
@@ -91,8 +93,9 @@
     margin-left: 430px;
 }
 .d:hover{
-    background-color: skyblue;
-    color: white;}
+    background-color: dodgerblue;
+    color: white;
+}
 
 .e{
     border-style: hidden;
@@ -103,61 +106,27 @@
     margin-left: 510px;
 }
 .e:hover{
-    background-color: skyblue;
+    background-color: dodgerblue;
     color: white;}
-.g{
-    border-style: hidden;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-    position: absolute;
-    margin-left: 655px;
-}
-.g:hover{
-    background-color: skyblue;
-    color: white;}
-.h{
-    border-style: hidden;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-    position: absolute;
-    margin-left: 803px;
-}
-.h:hover{
-    background-color: skyblue;
-    color: white;}
-.i{
-    border-style: hidden;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-    position: absolute;
-    margin-left: 963px;
-}
-.i:hover{
-    background-color: skyblue;
-    color: white;}
+
 .j{
     border-style: hidden;
     padding: 12px;
     text-align: center;
     font-size: 18px;
     position: absolute;
-    margin-left: 1135px;
+    margin-left: 670px;
 }
 .j:hover{
-    background-color: skyblue;
+    background-color: dodgerblue;
     color: white;}
 #four{
-    background-color: skyblue;
+    background-color: dodgerblue;
     height: 2px;
     width: 1530px;
     border-style: hidden;
-        
-    }
-    
-    
+}   
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -257,17 +226,20 @@ img {vertical-align: middle;}
 }
     
 #five{
-    height: 720px;
+    height: 20px;
     width: 1530px;
     border-style: hidden;
     float: left;
+    
     
 
 }
 .www{
     font-size: 28px;
-            padding-top: 30px;
-            margin-left: 650px; 
+    padding-top: 30px;
+    margin-left: 650px;
+    font-style: oblique;
+            color: cadetblue;
 }
 .ww{
     height: 145px;
@@ -277,41 +249,27 @@ img {vertical-align: middle;}
     margin-top: 20px;
     margin-left: 300px;
     font-size: 20px;
+    font-style: oblique;
+            color: cadetblue;
 }
 #five img{
    margin-left: 500px;
-            margin-top: 10px;
-            padding-top: 10px;
-    width: 500px;
+   margin-top: 10px;
+   padding-top: 10px;
+   width: 500px;
 }
 
-#six{
-     height: 400px;
-    width: 1530px;
-    border-style: hidden;
-    float: left;
-    
-}
-.vvv{
-    font-size: 28px;
-            padding-top:10px;
-            margin-left: 660px;
-    
-}
-.vv{
-    height: 500px;
-    width: 1180px;
-    border-style: hidden;
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 20px;
-    margin-left: 190px;
-}
 #seven{
-    background-color: whitesmoke;
-    height: 184px;
+    background-color: dodgerblue;
+    height: 5px;
     width: 1530px;
     border-style: hidden;
-    margin-top: 1100px;
+    margin-top: 692px;
+}
+
+#eight{
+    background-color: skyblue;
+    height: 130px;
+    width: 1530px;
+    border-style: hidden;
 }
